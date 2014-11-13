@@ -1,0 +1,117 @@
+
+"#date": {
+	top: "0%",
+	height: "14%",
+	width: Titanium.UI.FILL,
+	backgroundColor: "#25bb8c"
+}
+
+"#h3": {
+	top: "4%",
+	color: "#fff",
+	font: {
+		fontWeight: "bold",
+		fontSize: "26"
+	}
+}
+
+
+".home": {
+	title: "Kan ik?",
+	font: {
+		fontSize: "30"
+	}
+}
+
+
+"#h4": {
+	top: "55%",
+	font: {
+		fontSize: "16"
+	},
+	color: "white"
+}
+
+"#savePig": {
+	top: "18%",
+	height: "50%",
+}
+
+"#h2": {
+	top: "0",
+	font: {
+		fontWeight: "bold",
+		fontSize: "26"
+	},
+	color: "#25bb8c"
+}
+
+"#savePigImg": {
+	top: "18%",
+	height: "80%",
+	image: "/savePig.png"
+}
+
+"#moneySaved": {
+	top: "45%",
+	font: {
+		fontWeight: "bold",
+		fontSize: "36"
+	},
+	color: "#25bb8c",
+    shadowColor : '#ecedd5',
+    shadowOffset: {
+    	x:0, 
+    	y:-2
+    }
+}
+
+"#som": {
+	top: "80%",
+	height: "20%",
+}
+
+"#moneyIn": {
+	top: "10%",
+	left: "8%",
+	width: "72%",
+	font: {
+		fontWeight: "bold",
+		fontSize: "26"
+	},
+	color: "#25bb8c"
+}
+
+"#pigIn": {
+	top: "5",
+	right: "8%",
+	image: "/pigIn.png",
+	width: "90px"
+}
+
+"#moneyOut": {
+	top: "50%",
+	left: "8%",
+	width: "72%",
+	font: {
+		fontWeight: "bold",
+		fontSize: "26"
+	},
+	color: "#25bb8c"
+}
+
+"#pigOut": {
+	top: "45%",
+	right: "8%",
+	image: "/pigOut.png",
+	width: "90px"
+}
+
+Button: {
+	backgroundImage: "/tandwiel.png",
+	width: "70px",
+	height: "70px",
+	font: {
+		fontSize: "1000"
+	}
+}

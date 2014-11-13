@@ -1,0 +1,64 @@
+<Alloy>
+	<Widget id="drawer" src="nl.fokkezb.drawer">
+        <Window module="xp.ui" role="leftWindow">
+        	<View id="list">
+		        <Label id="headerMenu">Instellingen</Label>
+		    	<Label class="wit" onClick="beginPage">Startscherm ></Label>
+		    	<Label class="wit" onClick="inkomstenPage">Inkomsten ></Label>
+		    	<Label class="wit" onClick="vastelastenPage">Vastelasten ></Label>
+		    </View>
+		    <!-- <ListView id="list">
+		        <ListSection id="accounts">
+		        	<ListItem id="headerMenu" title="Instellingen"/>
+		            <ListItem class="wit" id="doClick" title="Inkomsten"><Label onClick="doClick">test</Label></ListItem>
+		            <ListItem class="wit" image="images/saving_account.png" title="Uitgave"/>
+		        </ListSection>
+		    </ListView> -->
+        </Window>
+        <NavigationWindow platform="ios" role="centerWindow">
+            <Window class="home">
+                <LeftNavButton>
+                    <Button onClick="toggle">Left</Button>
+                </LeftNavButton>
+				<View id="date">
+					<Label id="h3">Week: 12</Label>
+					<Label id="h4">17 maart t/m 23 maart</Label>
+				</View>
+				<View id="savePig">
+					<Label id="h2">Te besteden:</Label>
+					<ImageView id="savePigImg"></ImageView>
+					<Label id="moneySaved">€120,95</Label>
+				</View>
+				<View id="som">
+					<Label id="moneyIn">€ 1450,00</Label>
+					<ImageView id="pigIn"></ImageView>
+					<Label id="moneyOut">€ 930,00</Label>
+					<ImageView id="pigOut"></ImageView>
+				</View>
+            </Window>
+        </NavigationWindow>
+        <View platform="android" role="centerWindow">
+            <Window class="home">
+                <LeftNavButton>
+                    <Button onClick="toggle">Left</Button>
+                </LeftNavButton>
+				<View id="date">
+					<Label id="h3">Week: 12</Label>
+					<Label id="h4">17 maart t/m 23 maart</Label>
+				</View>
+				<View id="savePig">
+					<Label id="h2">Te besteden:</Label>
+					<ImageView id="savePigImg"></ImageView>
+					<Label id="moneySaved">€120,95</Label>
+				</View>
+				<View id="som">
+					<Label id="moneyIn">€ 1450,00</Label>
+					<ImageView id="pigIn"></ImageView>
+					<Label id="moneyOut">€ 930,00</Label>
+					<ImageView id="pigOut"></ImageView>
+				</View>
+            </Window>
+        </View>
+    </Widget>
+</Alloy>
+

@@ -1,0 +1,26 @@
+<Alloy>
+	<Window class="container">
+		<Label class="pageTitle">Maandinkomsten</Label>
+		<View id="wrapper1">
+			<View class="row">
+				<Label id="werkT" class="title"></Label>
+				<Label class="euro">€</Label>
+				<TextField id="werk" value=""></TextField>
+			</View>
+			<View class="row">
+				<Label id="stufiT" class="title"></Label>
+				<Label class="euro">€</Label>
+				<TextField id="stufi" value=""></TextField>
+			</View>
+			<View class="row">
+				<Label id="zorgT" class="title"></Label>
+				<Label class="euro">€</Label>
+				<TextField id="zorg" value=""></TextField>
+			</View>
+			<View class="buttons">
+				<Button class="btn">Andere inkomsten <ImageView class="plus" image="/images/button.png" />  </Button>
+				<Button id="nextBtn" class="bgBtn" onClick="uitPage">Volgende stap > </Button>
+			</View>
+		</View>	
+	</Window>
+</Alloy>

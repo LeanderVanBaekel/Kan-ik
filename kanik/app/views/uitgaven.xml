@@ -1,0 +1,29 @@
+<Alloy>
+	<Window id="uitgaven" class="container">
+		<Label class="pageTitle">Maanduitgaven</Label>
+		
+		<View id="wrapper1">
+			<View class="row">
+				<Label id="huurT" class="title"></Label>
+				<Label class="euro">€</Label>
+				<TextField id="huur" value=""></TextField>
+			</View>
+			<View class="row">
+				<Label id="studieT" class="title"></Label>
+				<Label class="euro">€</Label>
+				<TextField id="studie" value=""></TextField>
+			</View>
+			<View class="row">
+				<Label id="abboT" class="title"></Label>
+				<Label class="euro">€</Label>
+				<TextField id="abbo" value=""></TextField>
+			</View>
+			<View class="buttons">
+				<Button class="btn">Andere uitgaven <ImageView class="plus" image="/images/button.png" />  </Button>
+				<Button id="nextBtn" onClick="total" class="bgBtn af"> Afronden > </Button>
+				<Button id="backBtn" onClick="back" class="backBtn"> Terug </Button>
+				
+			</View>
+		</View>	
+	</Window>
+</Alloy>

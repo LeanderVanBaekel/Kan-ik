@@ -1,0 +1,38 @@
+".container2": {
+    backgroundColor: '#25bb8c',
+    width: Titanium.UI.FILL,
+    height: Titanium.UI.FILL
+}
+
+"#biervarken": {
+	image: "/biervarken.png",
+	top: "25%",
+    height: "20%"
+}
+
+"#h1": {
+	top: "8%",
+	font: {
+		fontSize: "54",
+		fontWeight: "bold"
+	},
+	color: "#fff"
+}
+
+"#p": {
+	top: "60%",
+    width: "90%",
+	font: {
+		fontSize: "16",
+		fontWeight: "normal"
+	},
+	textAlign: "center",
+	color: "#fff"
+}
+
+"#startButton": {
+	top: "80%",
+	width: "462px",
+	height: "197px",
+	BackgroundImage: "/startKnop1.png"
+}

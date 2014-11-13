@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container2">
+		<Label id="h1">Kan ik?</Label>
+		<ImageView id="biervarken"></ImageView>
+		<Label id="p">De app die de chaotische financiële in en uitkomsten van een student ordent en je verteld hoeveel geld je nog te besteden hebt om je diepvriespizza of biertje in de kroeg te halen.</Label>
+		<ImageView id="startButton" image="/startKnop1.png" onClick="beginPage"></ImageView>
+		<!-- <Button id="startButton" image="/startKnop1.png" onClick="beginPage"></Button> -->
+	</Window>
+</Alloy>

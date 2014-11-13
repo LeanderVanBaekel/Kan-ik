@@ -1,0 +1,162 @@
+"#drawer": {
+    openDrawerGestureMode: "OPEN_MODE_ALL",
+    closeDrawerGestureMode: "CLOSE_MODE_MARGIN",
+    leftDrawerWidth: 200
+}
+
+"Window": {
+    backgroundColor: '#ecedd5'
+}
+
+"#headerMenu": {
+	height: "130px",
+	backgroundColor: "#25bb8c",
+	font: {
+		fontSize: "24",
+		fontWeight: "bold"
+	},
+	color: "#fff",
+	left: "8%"
+}
+
+".wit": {
+	color: "#fff",
+	height: "10%",
+	font: {
+		fontWeight: "light",
+		fontSize: "20"
+	},
+	left: "8%"
+}
+
+"#list": {
+	backgroundColor: "#25bb8c",
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+	layout: "vertical"
+}
+
+
+
+
+
+
+".container": {
+	backgroundColor:"#ecedd5"
+}
+
+".pageTitle": {
+	top: "90px",
+	color: '#25bb8c',
+  	font: { 
+  			fontWeight: "bold",
+  			fontSize: 18 
+  		  }
+}
+
+/*
+	Button styling 
+*/
+".buttons" : {
+	height: "260px",
+	top: "110px"
+}
+
+".btn" : {
+	font: {
+            fontSize: 14
+          },
+    color: "#323232",
+    width: "320px",
+    textAlign: "left", 
+    left: "-15px",
+    top: "0"
+}
+".plus" : {
+	right: "0"
+}
+
+".bgBtn" : {
+	font: {
+            fontSize: 14
+          },
+    color: "white",
+    width: "250px",
+    height: "50px",
+    borderRadius: 4,
+    backgroundColor: "#25bb8c",
+    textAlign: "left", 
+    right: "0",
+    bottom: "0"
+}
+
+".backBtn" : {
+	font: {
+            fontSize: 14
+          },
+    color: "#323232",
+    width: "150px",
+    height: "50px",
+    textAlign: "left", 
+    left: "-15px",
+    bottom: "0"
+}
+
+".af" : {
+	width: "190px"
+}
+/*
+	Container styling
+*/
+"#wrapper1" : {
+	layout: 'vertical',
+	width: "540px", 
+	top: "140px",
+	height: "80%"
+}
+
+	".row": {
+		top: "40px", 
+		height: "80px"
+	}
+
+/*
+	Box styling
+*/
+".title" : {
+	font: {
+            fontSize: 14
+          },
+    color: "#323232",
+    left: "0", 
+    top: "15px",
+    height:"100%",
+    textAlign:"left"
+}
+
+".euro": {
+	font: {
+            fontSize: 14,
+            fontWeight: "bold"
+          },
+    color: "#25bb8c",
+    right: "120px"
+}
+
+"TextField": {
+	font: {
+		fontSize: 11
+	},
+	top: "0",
+	backgroundColor: "#fff",
+	right: "0",
+	width: "25%",
+	height: "100%", 
+	borderWidth: "1px",
+	borderColor: "#d3d3d3"
+}
+
+
+
+
+
