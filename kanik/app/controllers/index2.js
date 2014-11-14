@@ -16,7 +16,7 @@ function inkomstenPage(e) {
 }
 
 function vastelastenPage(e) {
-	var vastelasten = Alloy.createController('vastelasten').getView();
+	var vastelasten = Alloy.createController('uitgaven').getView();
 	vastelasten.open();
 }
 

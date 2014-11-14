@@ -1,6 +1,8 @@
 <Alloy>
 	<Window class="container">
-		<Label class="pageTitle">Maandinkomsten</Label>
+		<View class="header">
+			<Label class="pageTitle">Maandinkomsten</Label>
+		</View>
 		<View id="wrapper1">
 			<View class="row">
 				<Label id="werkT" class="title"></Label>

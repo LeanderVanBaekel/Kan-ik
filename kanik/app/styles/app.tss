@@ -36,6 +36,14 @@
 	layout: "vertical"
 }
 
+".header": {
+	top: "0%",
+	height: "14%",
+	width: Titanium.UI.FILL,
+	backgroundColor: "#25bb8c"
+}
+
+
 
 
 
@@ -46,12 +54,13 @@
 }
 
 ".pageTitle": {
-	top: "90px",
-	color: '#25bb8c',
-  	font: { 
-  			fontWeight: "bold",
-  			fontSize: 18 
-  		  }
+	top: "4%",
+	height: "4%",
+	color: "#fff",
+	font: {
+		fontWeight: "bold",
+		fontSize: "26"
+	}
 }
 
 /*
@@ -147,6 +156,7 @@
 	font: {
 		fontSize: 11
 	},
+	color: "black",
 	top: "0",
 	backgroundColor: "#fff",
 	right: "0",

@@ -1,11 +1,4 @@
 
-"#date": {
-	top: "0%",
-	height: "14%",
-	width: Titanium.UI.FILL,
-	backgroundColor: "#25bb8c"
-}
-
 "#h3": {
 	top: "4%",
 	color: "#fff",
