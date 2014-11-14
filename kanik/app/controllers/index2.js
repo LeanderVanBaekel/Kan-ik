@@ -8,16 +8,19 @@ function toggle(e) {
 function beginPage(e) {
 	var begin = Alloy.createController('index').getView();
 	begin.open();
+	//$.drawer.close();
 }
 
 function inkomstenPage(e) {
 	var inkomsten = Alloy.createController('inkomsten').getView();
 	inkomsten.open();
+	//$.drawer.close();
 }
 
 function vastelastenPage(e) {
 	var vastelasten = Alloy.createController('uitgaven').getView();
 	vastelasten.open();
+	//$.drawer.close();
 }
 
 //DB
