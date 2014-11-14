@@ -1,7 +1,6 @@
 
 "#h3": {
 	top: "4%",
-	color: "#fff",
 	font: {
 		fontWeight: "bold",
 		fontSize: "26"
@@ -22,7 +21,6 @@
 	font: {
 		fontSize: "16"
 	},
-	color: "white"
 }
 
 "#savePig": {
@@ -107,4 +105,13 @@ Button: {
 	font: {
 		fontSize: "1000"
 	}
+}
+
+
+"#droidButton": {
+	left: "10px"
+}
+
+"#droidWindow": {
+	navBarHidden : 'true'
 }

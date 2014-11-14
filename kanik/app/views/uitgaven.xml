@@ -1,6 +1,8 @@
 <Alloy>
 	<Window id="uitgaven" class="container">
-		<Label class="pageTitle">Maanduitgaven</Label>
+		<View class="header">
+			<Label class="pageTitle">Maanduitgaven</Label>
+		</View>
 		
 		<View id="wrapper1">
 			<View class="row">

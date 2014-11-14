@@ -30,12 +30,13 @@
 				</View>
             </Window>
         </NavigationWindow>
-        <View platform="android" role="centerWindow">
+        <View id="droidWindow" platform="android" role="centerWindow">
             <Window class="home">
                 <LeftNavButton>
                     <Button onClick="toggle">Left</Button>
                 </LeftNavButton>
 				<View class="header">
+                    <Button id="droidButton" onClick="toggle">Left</Button>
 					<Label class="pageTitle" id="h3">Week: 12</Label>
 					<Label class="pageTitle" id="h4">17 maart t/m 23 maart</Label>
 				</View>

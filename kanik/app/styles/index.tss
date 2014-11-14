@@ -1,7 +1,8 @@
 ".container2": {
     backgroundColor: '#25bb8c',
     width: Titanium.UI.FILL,
-    height: Titanium.UI.FILL
+    height: Titanium.UI.FILL,
+	navBarHidden : 'true'
 }
 
 "#biervarken": {

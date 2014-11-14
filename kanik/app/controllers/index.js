@@ -11,4 +11,5 @@ $.index.open();
 function beginPage(e) {
 	var begin = Alloy.createController('index2').getView();
 	begin.open();
+	$.index.close();
 }
